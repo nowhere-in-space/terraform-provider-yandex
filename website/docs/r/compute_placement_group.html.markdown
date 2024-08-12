@@ -45,3 +45,10 @@ This resource provides the following configuration options for
 - `create` - Default is 1 minute.
 - `update` - Default is 1 minute.
 - `delete` - Default is 1 minute.
+
+## Import
+
+A Placement group can be imported using any of these accepted formats:
+
+```
+$ terraform import yandex_compute_placement_group.default placement_group_id
